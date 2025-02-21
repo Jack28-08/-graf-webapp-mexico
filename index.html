@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bandera de México</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Bandera de México</h1> <!-- Título agregado -->
+
+  <div class="bandera-container">
+    <div class="bandera">
+      <!-- Columna Verde -->
+      <div class="col col-verde" id="colVerde">
+        <div class="top-panel">
+          <input type="range" id="sliderVerde" min="0" max="255" value="128"/>
+          <p id="hexVerde">#008000</p>
+        </div>
+      </div>
+
+      <!-- Columna Blanca -->
+      <div class="col col-blanco">
+        <div class="simbolos">
+          @@@<br />
+          @@@<br />
+          @@@
+        </div>
+      </div>
+
+      <!-- Columna Roja -->
+      <div class="col col-rojo" id="colRojo">
+        <div class="top-panel">
+          <input type="range" id="sliderRojo" min="0" max="255" value="128"/>
+          <p id="hexRojo">#800000</p>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Nombre y número de control -->
+    <p class="autor">Jose Hector Rosales Cabrera</p>
+    <p class="autor">Número de control: 22201106</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
